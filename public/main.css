@@ -594,14 +594,6 @@ video {
   position: relative;
 }
 
-.bottom-6 {
-  bottom: 1.5rem;
-}
-
-.bottom-7 {
-  bottom: 1.75rem;
-}
-
 .bottom-9 {
   bottom: 2.25rem;
 }
@@ -677,12 +669,12 @@ video {
   background-color: hsl(235 16% 14% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/pattern-hills\.svg\'\)\] {
-  background-image: url('/img/pattern-hills.svg');
+.bg-\[url\(\'\.\/pattern-hills\.svg\'\)\] {
+  background-image: url('./pattern-hills.svg');
 }
 
-.bg-\[url\(\'\/img\/bg-stars\.svg\'\)\] {
-  background-image: url('/img/bg-stars.svg');
+.bg-\[url\(\'\.\/zg-stars\.svg\'\)\] {
+  background-image: url('./zg-stars.svg');
 }
 
 .bg-gradient-to-b {
@@ -776,10 +768,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:relative {
-    position: relative;
-  }
-
   .md\:justify-center {
     justify-content: center;
   }
@@ -819,3 +807,6 @@ video {
     line-height: 1.75rem;
   }
 }
+
+
+
